@@ -1,5 +1,5 @@
 ## Descripción
-Este es la actividad integral de Luis Edgar Ramirez. En ella se puede consultar el conjunto de datos sobre las emisiones de cárbono que producen los países durante un año a lo largo de la historia. Tiene un tamaño de cuatro columnas (país, código del país, año y emisiones totales) y 20,853 entradas. El usuario puede imprimir en consola toda la tabla o una porción de ella ingresando un rango; puede ordenar la tabla o una porción de ella, en base a una de los dos variables disponibes (año y emisiones totale); y buscar cualquier valor en la tabla.
+Este es la actividad integral de Luis Edgar Ramirez. En ella se puede consultar el conjunto de datos sobre las emisiones de cárbono que producen los países durante un año a lo largo de la historia. Tiene un tamaño de cuatro columnas (país, código del país, año y emisiones totales) y 20,853 entradas. El usuario puede imprimir en consola toda la tabla o una porción de ella ingresando un rango; puede ordenar la tabla o una porción de ella, en base a una de las variables disponibes (entidad, código, año y emisiones totales) y escribir el nuevo ordenamiento en un nuevo documento formato csv; y buscar cualquier valor en la tabla. 
 
 ## Compilación y ejecución
 Para compilar en Linux, ejecute en la terminal
@@ -15,6 +15,9 @@ El código se probó utulizando el editor de texto en línea Repl.it
 
 ## Complejidad del código
 El programa usa dos algoritmos fundamentales, Bubble Sort para ordenar los datos de la tabla, y Sequential Search para buscar elementos en la tabla. Estos algoritmos no son los más eficientes, sin embargo se decidió usar estos porque la longitud de la tabla no es de tamaño considerado para que la eficiencia juegue un papel fundamental, y estos algoritmos son mucho más fácilesde implementar y de leer, por lo que s ele dio prioridad a esto e vez de algoritmos que resulvan la tarea un poco más rápido.
+
+#### Listas doblemente ligadas
+La estructura utilizada para almacenar los datos de el documento es una lista doblemente ligada. La complejidad espacial de almacenamiento es lineal.
 
 #### Bubble Sort
 La complejidad temporal de este algoritmo es menor que cuadrática. Sin embargo, contemplamos que para el peor de los casos la complejidad se redondea a cuadrática, O(n^2). 
